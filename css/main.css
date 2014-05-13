@@ -90,15 +90,338 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+#top-menu {
+	width: 100%;
+	height: 50px;
+	background-color: #ff9900;
+	margin: 0;
+	padding: 0;
+}
+
+ul.menu {
+	display: inline;
+	list-style-type: none;
+	width: 500px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+ul.menu li {
+	margin: 0 auto;
+	padding: 0;
+}
+
+ul.menu li a {
+	display: inline;
+	float: left;
+	max-height: 50px;
+	width: 100px;
+	margin: 0 auto;
+	margin-top: 7px;
+	padding-left: 200px;
+	padding-top: 5px;
+	font-family: "Arial";
+	font-size: 14pt;
+	font-weight: 500;
+	text-align: center;
+	background-color: #ff9900;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+h1{
+	font-family: "Helvetica";
+	font-size: 10pt;
+	text-transform: uppercase;
+	font: bold;
+	color: #339966;
+	margin-top: 0;
+	padding-top: 5px;
+	
+}
+
+h3 {
+	font-family: "Open Sans";
+	font-size: 14pt;
+	font-weight: bold;
+	color: #333333;
+	text-align: left;
+	
+}
+
+#h3 {
+	font-family: "Open Sans";
+	font-size: 14pt;
+	font-weight: 400;
+	color: #333333;
+	text-align: left;
+	float: left;
+	width: 400px;
+	clear: right;
+	
+}
+
+#h3list {
+	font-family: "Open Sans";
+	font-size: 14pt;
+	font-weight: 400;
+	color: #333333;
+	text-align: left;
+	clear: left;
+	float: right;
+}
+
+#h3li {
+	float: right;
+}
+
+#Callus {
+	text-align: center;
+	font-family: arial;
+	font-size: 24pt;
+	font: bold;
+	color: #ff9900;
+	margin-top: 20px;
+	margin-bottom: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+#ded {
+	text-align: center;
+	font-family: arial;
+	font-size: 16pt;
+	color: #999933;
+	margin-top: 3px;
+	margin-bottom: 0;
+	padding: 0;
+}
+
+#Serv {
+	text-align: center;
+	font-family: helvetica;
+	font-size: 14pt;
+	font: bold;
+	color: #999933;
+	letter-spacing: 5px;
+	word-spacing: 10px;
+	text-transform: uppercase;
+	
+}
+
+#days {
+	text-align: right;
+	font-family: "Open Sans";
+	font-size: 14pt;
+	color: black;
+	
+}
+
+#tel {
+	text-align: right;
+	font-family: "Open Sans";
+	font-size: 14pt;
+	font-weight: bold;
+	color: black;
+}
+
+#one {
+	text-align: right;
+	font-family: "Open Sans";
+	font-size: 14pt;
+	font-weight: bold;
+	color: #339966;
+}
 
 
+/* .Rounded_Rectangle_6 {
+clear: both;
+  border-radius: 5px;
+  background-image: -moz-linear-gradient( 90deg, rgb(63,80,125) 0%, rgb(80,107,161) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(63,80,125) 0%, rgb(80,107,161) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(63,80,125) 0%, rgb(80,107,161) 100%);
+  position: absolute;
+  left: 210px;
+  top: 612px;
+  width: 981px;
+  height: 52px;
+  z-index: 80;
+} */
+
+#fb {
+  font-size: 20px;
+  font-family: "Helvetica";
+  color: rgb( 255, 255, 255 );
+  font-weight: bold;
+  position: absolute;
+  left: 435px;
+  top: 627.803px;
+  z-index: 83;
+}
+
+#heat{
+	font-family: "Open Sans";
+	font-weight: 500;
+	font-size: 30pt;
+	color: #cc3333;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	padding-top: 20px;
+	
+}
+
+p.hpara {
+	font-family: "Open Sans";
+	font-size: 14pt;
+	font-weight: 400;
+	color: #333333;
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    border: 0; 
+    width: 1000px;
+
+}
+
+#coolio {
+	font-family: "Open Sans";
+	font-weight: 500;
+	font-size: 30pt;
+	color: #3399cc;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	padding-top: 20px;
+	border: 0;
+	
+}
+
+#cooli {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	padding-top: 0;
+	border: 0;
+}
+
+#aboot {
+	font-family: "Open Sans";
+	font-weight: 500;
+	font-size: 30pt;
+	color: #333333;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	padding-top: 20px;
+	
+}
+
+div.bot {
+	background-color: #eef1f5;
+	clear: both;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	margin-top: 20px;
+	padding-top: 0;
+}
+
+div.mid {
+	background-color: #eef1f5;
+	background-size: 500px 1400px;
+	margin-bottom: 75px;
+	padding-bottom: 0;
+	padding-top: 1px;
+	margin-top: 0px;
+}
+
+img.logos {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.cutapart .crow {
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	width:55%;
+}
+.cutapart img { 
+	display: block;
+	float: left;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0px;
+	padding-bottom: 10px;
+	padding-left: 40px;
+	
+}
+
+p.clear {
+	clear:both;
+	padding: 1px;
+	margin: 1px;
+}
+
+#emplogo {
+	margin-bottom: 0;
+	margin-top: 10px;
+	padding-bottom: 0;
+	padding-top: 0;
+	
+}
+
+#vid {
+	position: relative;
+	left: 35%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#topbox {
+	float: left;
+}
+
+#telefono {
+	float: right;
+}
+
+#servi {
+	width: 75%;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+#topdiv {
+	width: 75%;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+div#bbb {
+	float: right;
+	padding: 0 auto;
+	margin: 0 auto;
+	border: none;
+}
 
 
+.Table {
+	
+}
 
-
-
-
-
+div#table {
+	margin-left: 0 auto;
+	margin-right: 0 auto;
+	padding: 0;
+	width: 75%;
+}
 
 
 
@@ -112,7 +435,7 @@ textarea {
    ========================================================================== */
 
 /*
- * Hide visually and from screen readers: h5bp.com/u
+ * Hide from both screenreaders and browsers: h5bp.com/u
  */
 
 .hidden {
@@ -121,7 +444,7 @@ textarea {
 }
 
 /*
- * Hide only visually, but have it available for screen readers: h5bp.com/v
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
  */
 
 .visuallyhidden {
@@ -151,7 +474,7 @@ textarea {
 }
 
 /*
- * Hide visually and from screen readers, but maintain layout
+ * Hide visually and from screenreaders, but maintain layout
  */
 
 .invisible {
@@ -199,7 +522,7 @@ textarea {
 
 /* ==========================================================================
    Print styles.
-   Inlined to avoid the additional HTTP request: h5bp.com/r
+   Inlined to avoid required HTTP connection: h5bp.com/r
    ========================================================================== */
 
 @media print {
@@ -224,12 +547,11 @@ textarea {
     }
 
     /*
-     * Don't show links that are fragment identifiers,
-     * or use the `javascript:` pseudo protocol
+     * Don't show links for images, or javascript/internal links
      */
 
-    a[href^="#"]:after,
-    a[href^="javascript:"]:after {
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
         content: "";
     }
 
